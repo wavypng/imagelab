@@ -20,7 +20,7 @@ public class DynDisplayImage extends DisplayImage {
     private DynaPanel pane;
     /** Singleton object. */
     private DynDisplayImage singleton;
-    /** Delay for image to be displayed  */
+    /** Delay for image to be displayed.  */
     private static final int SLEEP_TIME = 50;
 
     /**

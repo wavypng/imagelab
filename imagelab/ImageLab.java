@@ -21,8 +21,8 @@ import java.util.List;
  * ImageLab is a platform for image filter development.  ImageLab
  * begins by building a menu of all available filters (those .class files
  * that implement the {@link ImageFilter ImageFilter} interface).
- * [TODO: User interface to allow chosing directory to search for filters.
- * [TODO: User interface to allow displaying images a line or pixel at a time.
+ * [todo: User interface to allow chosing directory to search for filters.
+ * [todo: User interface to allow displaying images a line or pixel at a time.
  *
  * @author Dr. Aaron Gordon
  * @author Dr. Jody Paul
@@ -41,7 +41,7 @@ public class ImageLab {
     /** Holds all open images (ImgProvider objects). */
     private static List<ImgProvider> images = new ArrayList<ImgProvider>();
 
-    /** The directory that holds filter classes.  (TODO) */
+    /** The directory that holds filter classes.  (todo) */
     private static String filterDir = FILTER_DIR;
 
     /** Holds the actual filter objects. */
